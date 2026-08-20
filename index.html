@@ -77,6 +77,7 @@
   }
   a.prop-card:hover{transform:translateY(-4px); border-color:var(--gold); background:var(--card-hover);}
   .prop-img{aspect-ratio:4/3; overflow:hidden; background:var(--card);}
+  .prop-img.portrait{aspect-ratio:3/4;}
   .prop-img img{width:100%; height:100%; object-fit:cover;}
   .prop-img.ph{display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px; border-bottom:1px dashed var(--line);}
   .prop-img.ph svg{width:30px; height:30px; stroke:var(--gold); opacity:.75;}
@@ -176,7 +177,7 @@
   <div class="wrap">
     <p class="label">Le nostre case</p>
     <h2>Tre indirizzi sull'Altopiano</h2>
-    <p class="lead">Ogni casa ha il suo carattere: Sisemol PRUK solo in affitto, Camporovere per ora in affitto, e gli appartamenti di Villa Neve solo in vendita.</p>
+    <p class="lead">Ogni casa ha il suo carattere: Sisemol PRUK e Camporovere solo in affitto, gli appartamenti di Villa Neve solo in vendita.</p>
 
     <div class="prop-grid">
 
@@ -197,18 +198,18 @@
           <span class="prop-badge badge-live">Affitto diretto</span>
           <div class="prop-name">Camporovere</div>
           <div class="prop-loc">Camporovere · Roana</div>
-          <p class="prop-desc">Un appartamento nel verde tra Roana e Asiago. Per ora in affitto (non escluso in futuro anche per la vendita). Guida di benvenuto in preparazione.</p>
+          <p class="prop-desc">Un appartamento nel verde tra Roana e Asiago, non escluso in futuro anche per la vendita.</p>
           <span class="prop-cta">Visita il sito →</span>
         </div>
       </a>
 
       <div class="prop-card">
-        <div class="prop-img"><img src="images/card-villaneve.jpg" alt="Villa Neve, restauro nel centro di Asiago"></div>
+        <div class="prop-img portrait"><img src="images/card-villaneve.jpg" alt="Villa Neve, restauro nel centro di Asiago"></div>
         <div class="prop-body">
           <span class="prop-badge badge-sale">In vendita</span>
           <div class="prop-name">Villa Neve</div>
           <div class="prop-loc">Asiago · Centro</div>
-          <p class="prop-desc">Restauro di un edificio storico nel centro di Asiago: più appartamenti in vendita, non in affitto. Dettagli e prezzi in arrivo.</p>
+          <p class="prop-desc">Restauro di pregio di uno degli edifici storici più antichi del centro di Asiago. 5 appartamenti di varie metrature già disponibili per l'acquisto con garage; una nuova mansarda a breve in fase di costruzione.</p>
           <span class="prop-cta muted">Info a breve</span>
         </div>
       </div>
@@ -223,7 +224,7 @@
       <p class="label">Niente intermediari</p>
       <h2>Parli sempre con noi</h2>
     </div>
-    <p class="lead">Per Sisemol PRUK e, presto, per Camporovere: dalla richiesta di disponibilità al check-in, sei in contatto diretto con chi gestisce gli appartamenti. Per gli appartamenti di Villa Neve, in vendita ad Asiago, scrivici per informazioni o per fissare una visita.</p>
+    <p class="lead">Per Sisemol PRUK e Camporovere: dalla richiesta di disponibilità al check-in, sei in contatto diretto con chi gestisce gli appartamenti. Per gli appartamenti di Villa Neve, in vendita ad Asiago, scrivici per informazioni o per fissare una visita.</p>
   </div>
 </section>
 
@@ -248,9 +249,10 @@
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 22s7-7.58 7-13a7 7 0 1 0-14 0c0 5.42 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg>
           <div>
             <div class="loc-name">Camporovere, Roana</div>
-            <div class="loc-sub ui">Affitto diretto (in arrivo) · vendita non esclusa</div>
+            <div class="loc-sub ui">Affitto diretto · vendita non esclusa</div>
           </div>
         </div>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=45.88056840999691,11.487050319572154" target="_blank" rel="noopener">Mappa</a>
       </div>
       <div class="loc-item">
         <div class="loc-info">
@@ -260,6 +262,7 @@
             <div class="loc-sub ui">Appartamenti Villa Neve · in vendita</div>
           </div>
         </div>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=45.87675163014042,11.508903033363428" target="_blank" rel="noopener">Mappa</a>
       </div>
     </div>
   </div>
